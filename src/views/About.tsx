@@ -2,6 +2,13 @@
 import Project from "../components/project";
 import Project2 from "../components/project2";
 import ReactLogo from "../assets/react.svg"
+import ViteLogo from "../assets/vite.svg"
+import TailWindLogo from "../assets/Tailwind_CSS.png"
+import NodejsLogo from "../assets/nodejs.png"
+import MysqlLogo from "../assets/Mysql.png"
+import JavaLogo from "../assets/Java.png"
+import TypeScriptLogo from "../assets/typescript.png"
+import PythonLogo from "../assets/Python.png"
 
 export default function About() {
   return (
@@ -37,11 +44,11 @@ export default function About() {
                   />
                 </div>
                 <div className="w-16 h-16 bg-white/20 rounded-xl flex items-center justify-center backdrop-blur-sm border border-white/30">
-                  <img src="/imgs/vite.svg" alt="Vite" className="w-10 h-10" />
+                  <img src={ViteLogo} alt="Vite" className="w-10 h-10" />
                 </div>
                 <div className="w-16 h-16 bg-white/20 rounded-xl flex items-center justify-center backdrop-blur-sm border border-white/30">
                   <img
-                    src={`${import.meta.env.BASE_URL}imgs/Tailwind_CSS.png`}
+                    src={TailWindLogo}
                     alt="Tailwind"
                     className="w-10 h-7"
                   />
@@ -73,14 +80,14 @@ export default function About() {
               <div className="flex justify-center items-center gap-4 mb-6 flex-wrap">
                 <div className="w-16 h-16 bg-white/20 rounded-xl flex items-center justify-center backdrop-blur-sm border border-white/30">
                   <img
-                    src="/imgs/nodejs.png"
+                    src={NodejsLogo}
                     alt="Node.js"
                     className="w-10 h-10"
                   />
                 </div>
                 <div className="w-16 h-16 bg-white/20 rounded-xl flex items-center justify-center backdrop-blur-sm border border-white/30">
                   <img
-                    src="/imgs/Mysql.png"
+                    src={MysqlLogo}
                     alt="MySQL"
                     className="w-10 h-10"
                   />
@@ -106,18 +113,18 @@ export default function About() {
               </h2>
               <div className="flex justify-center items-center gap-4 mb-6 flex-wrap">
                 <div className="w-16 h-16 bg-white/20 rounded-xl flex items-center justify-center backdrop-blur-sm border border-white/30">
-                  <img src="/imgs/Java.png" alt="Java" className="w-10 h-10" />
+                  <img src={JavaLogo} alt="Java" className="w-10 h-10" />
                 </div>
                 <div className="w-16 h-16 bg-white/20 rounded-xl flex items-center justify-center backdrop-blur-sm border border-white/30">
                   <img
-                    src="/imgs/typescript.png"
+                    src={TypeScriptLogo}
                     alt="TypeScript"
                     className="w-10 h-10"
                   />
                 </div>
                 <div className="w-16 h-16 bg-white/20 rounded-xl flex items-center justify-center backdrop-blur-sm border border-white/30">
                   <img
-                    src="/imgs/Python.png"
+                    src={PythonLogo}
                     alt="Python"
                     className="w-10 h-10"
                   />
