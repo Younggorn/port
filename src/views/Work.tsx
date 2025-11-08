@@ -1,3 +1,7 @@
+
+import MutLogo from "../assets/MUT.png"
+import GmrLogo from "../assets/GMR.png"
+
 const Work = () => {
   return (
     <div className="min-h-screen mt-24 md:mt-20">
@@ -38,7 +42,7 @@ const Work = () => {
                     {/* Logo */}
                     <div className="flex-shrink-0 mx-auto sm:mx-0">
                       <div className="w-16 h-16 md:w-20 md:h-20 bg-white/80 rounded-2xl flex items-center justify-center backdrop-blur-sm border border-white/30 group-hover:scale-105 transition-transform">
-                        <img src="/imgs/MUT.png" alt="MUT Logo" className="w-12 h-12 md:w-16 md:h-16 object-contain rounded-xl" />
+                        <img src={MutLogo} alt="MUT Logo" className="w-12 h-12 md:w-16 md:h-16 object-contain rounded-xl" />
                       </div>
                     </div>
                     
@@ -129,7 +133,7 @@ const Work = () => {
                     {/* Logo */}
                     <div className="flex-shrink-0 mx-auto sm:mx-0 order-1 sm:order-2 md:order-2">
                       <div className="w-16 h-16 md:w-20 md:h-20 bg-white/20 rounded-2xl flex items-center justify-center backdrop-blur-sm border border-white/30 group-hover:scale-105 transition-transform">
-                        <img src="/imgs/GMR.png" alt="GMR Logo" className="w-12 h-12 md:w-16 md:h-16 object-contain rounded-xl" />
+                        <img src={GmrLogo} alt="GMR Logo" className="w-12 h-12 md:w-16 md:h-16 object-contain rounded-xl" />
                       </div>
                     </div>
                   </div>
