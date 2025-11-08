@@ -1,6 +1,6 @@
 import { motion, AnimatePresence } from "framer-motion";
 import { useEffect, useRef, useState } from "react";
-import { X, ChevronLeft, ChevronRight, ZoomIn, ZoomOut } from "lucide-react";
+import { X, ChevronLeft, ChevronRight, ZoomIn } from "lucide-react";
 import Pro2_1 from "../assets/Pro2-1.png";
 import Pro2_2 from "../assets/Pro2-2.png";
 import Pro2_3 from "../assets/Pro2-3.png";
@@ -277,10 +277,7 @@ export default function Project2() {
               </button>
 
               {/* Zoom out hint */}
-              <div className="absolute top-4 left-4 z-10 bg-black/70 text-white px-3 py-2 rounded-lg flex items-center gap-2 text-sm backdrop-blur-sm">
-                <ZoomOut size={16} />
-                Click outside to close
-              </div>
+              
 
               {/* Full size image */}
               <img
@@ -291,10 +288,10 @@ export default function Project2() {
               />
 
               {/* Image title */}
-              <div className="absolute bottom-4 left-4 right-4 bg-black/70 text-white p-3 rounded-lg backdrop-blur-sm">
+              {/* <div className="absolute bottom-4 left-4 right-4 bg-black/70 text-white p-3 rounded-lg backdrop-blur-sm">
                 <h3 className="font-semibold text-lg">{selectedProject.title}</h3>
                 <p className="text-gray-300 text-sm mt-1">{selectedProject.desc}</p>
-              </div>
+              </div> */}
             </motion.div>
           </motion.div>
         )}
