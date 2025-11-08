@@ -1,4 +1,5 @@
 import { Github, Linkedin, Mail } from "lucide-react"
+import { NavLink } from "react-router-dom"
 
 
 const footer = () => {
@@ -25,9 +26,9 @@ const footer = () => {
             <div>
               <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
               <ul className="space-y-2 text-gray-400">
-                <li><a href="/about" className="hover:text-white transition-colors">Projects</a></li>
-                <li><a href="/" className="hover:text-white transition-colors">Contact</a></li>
-                <li><a href="/about" className="hover:text-white transition-colors">About</a></li>
+                <li><NavLink to={"/about"} className="hover:text-white transition-colors">Projects</NavLink></li>
+                <li><NavLink to={"/"} className="hover:text-white transition-colors">Contact</NavLink></li>
+                <li><NavLink to={"/about"} className="hover:text-white transition-colors">About</NavLink></li>
               </ul>
             </div>
             
