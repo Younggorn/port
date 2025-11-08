@@ -25,7 +25,7 @@ export default function About() {
           <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 border border-white/20 hover:bg-white/15 transition-all duration-300 group">
             <div className="text-center">
               <h2 className="text-2xl font-bold text-white mb-6 group-hover:text-blue-400 transition-colors">
-                Frontend
+                Frontend 
               </h2>
               <div className="flex justify-center items-center gap-4 mb-6 flex-wrap">
                 <div className="w-16 h-16 bg-white/20 rounded-xl flex items-center justify-center backdrop-blur-sm border border-white/30">
@@ -48,7 +48,7 @@ export default function About() {
               </div>
               <div className="space-y-2">
                 <div className="px-4 py-2 bg-blue-500/20 rounded-full text-white text-sm border border-blue-400/30">
-                  React ⚛️
+                  React ⚛️ f
                 </div>
                 <div className="px-4 py-2 bg-yellow-500/20 rounded-full text-white text-sm border border-yellow-400/30">
                   Vite ⚡
