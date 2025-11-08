@@ -1,15 +1,15 @@
 import { motion, AnimatePresence } from "framer-motion";
 import { useEffect, useRef, useState } from "react";
 import { X, ChevronLeft, ChevronRight, ZoomIn, ZoomOut } from "lucide-react";
-import Pro1_1 from "../assets/imgs/Pro1-1.png";
-import Pro1_2 from "../assets/imgs/Pro1-2.png";
-import Pro1_3 from "../assets/imgs/Pro1-3.png";
-import Pro1_4 from "../assets/imgs/Pro1-4.png";
-import Pro1_5 from "../assets/imgs/Pro1-5.png";
-import Pro1_6 from "../assets/imgs/Pro1-6.png";
-import Pro1_7 from "../assets/imgs/Pro1-7.png";
-import Pro1_8 from "../assets/imgs/Pro1-8.png";
-import Pro1_9 from "../assets/imgs/Pro1-9.png";
+import Pro1_1 from "../assets/Pro1-1.png";
+import Pro1_2 from "../assets/Pro1-2.png";
+import Pro1_3 from "../assets/Pro1-3.png";
+import Pro1_4 from "../assets/Pro1-4.png";
+import Pro1_5 from "../assets/Pro1-5.png";
+import Pro1_6 from "../assets/Pro1-6.png";
+import Pro1_7 from "../assets/Pro1-7.png";
+import Pro1_8 from "../assets/Pro1-8.png";
+import Pro1_9 from "../assets/Pro1-9.png";
 
 export interface Project {
   img: any;
@@ -20,55 +20,55 @@ export interface Project {
 
 const projects : Project[]= [
   {
-    img:{Pro1_1},
+    img:Pro1_1,
     title: "Worktime Checkin",
     desc: "You can check in this page and OT request",
     detailDesc: "A comprehensive time tracking application that allows employees to check in and out for work shifts. Features include real-time clock-in/out, overtime request submission, and automatic time calculation. The interface is user-friendly with clear visual indicators for different shift statuses."
   },
   {
-    img: {Pro1_2},
+    img: Pro1_2,
     title: "Menu",
     desc: "Sidebar menu with navigation",
     detailDesc: "Intuitive sidebar navigation system with clean design and smooth transitions. Includes user profile section, quick access to main features, and responsive collapse functionality for mobile devices. Icons and labels provide clear visual hierarchy for easy navigation."
   },
   {
-    img: {Pro1_3},
+    img:Pro1_3,
     title: "Dashboard",
     desc: "You can see your checkin and edit in this page",
     detailDesc: "Personal dashboard displaying comprehensive work time analytics, including daily check-in history, weekly summaries, and monthly reports. Users can edit their entries, view attendance patterns, and track their work hours with interactive charts and calendars."
   },
   {
-    img: {Pro1_4},
+    img: Pro1_4,
     title: "Admin Dashboard",
     desc: "Admin dashboard page, it shows everyone's checkin",
     detailDesc: "Administrative overview panel providing real-time monitoring of all employee check-ins and work status. Features include team attendance tracking, department-wise analytics, late arrival notifications, and bulk management tools for efficient workforce monitoring."
   },
   {
-    img: {Pro1_5},
+    img: Pro1_5,
     title: "Detail",
     desc: "If you click item in day it will show detail",
     detailDesc: "Detailed view modal that expands when clicking on daily entries. Shows comprehensive information including exact check-in/out times, break durations, total work hours, location data, and any special notes or exceptions for that specific day."
   },
   {
-    img: {Pro1_6},
+    img: Pro1_6,
     title: "Permission Page",
     desc: "Admins can set permissions",
     detailDesc: "Advanced permission management system allowing administrators to configure user roles, access levels, and feature permissions. Includes role-based access control, department-specific settings, and granular permission assignment for different user groups."
   },
   {
-    img: {Pro1_7},
+    img: Pro1_7,
     title: "OT Request Page",
     desc: "You can create OT requests, choose a senior to approve",
     detailDesc: "Overtime request submission interface with smart approval workflow. Users can specify overtime duration, reason, project details, and select appropriate approvers. Includes automatic calculation of overtime rates and integration with payroll systems."
   },
   {
-    img: {Pro1_8},
+    img: Pro1_8,
     title: "Approve OT Page",
     desc: "Senior and admin can approve it",
     detailDesc: "Approval interface for senior staff and administrators to review and process overtime requests. Features batch approval options, detailed request information, comment system for feedback, and automatic notification system to keep all parties informed."
   },
   {
-    img: {Pro1_9},
+    img: Pro1_9,
     title: "Approve by Admin",
     desc: "Only admin can approve it, user will get OT time",
     detailDesc: "Final administrative approval stage with enhanced security and audit trails. Only top-level administrators can process final approvals, ensuring proper oversight. Includes automatic time credit assignment, payroll integration, and comprehensive logging for compliance."
