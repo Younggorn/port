@@ -8,7 +8,7 @@ import Work from "./views/Work";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/port">
       <Routes>
         {/* Layout ครอบทุกหน้า */}
         <Route path="/" element={<Layout />}>
