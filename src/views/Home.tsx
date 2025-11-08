@@ -35,7 +35,7 @@ const Home = () => {
             Full Stack Developer & SmartWork Creator
           </p>
           <div className="flex justify-center space-x-6">
-            <a href="Work" className="bg-gradient-to-r from-purple-600 to-blue-600 px-8 py-3 rounded-full hover:from-purple-700 hover:to-blue-700 transition-all duration-300 transform hover:scale-105">
+            <a href="work" className="bg-gradient-to-r from-purple-600 to-blue-600 px-8 py-3 rounded-full hover:from-purple-700 hover:to-blue-700 transition-all duration-300 transform hover:scale-105">
               View My Work
             </a>
             <a href="#contact" className="border-2 border-purple-400 px-8 py-3 rounded-full hover:bg-purple-400 hover:text-gray-900 transition-all duration-300">

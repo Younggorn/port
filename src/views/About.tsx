@@ -30,7 +30,7 @@ export default function About() {
               <div className="flex justify-center items-center gap-4 mb-6 flex-wrap">
                 <div className="w-16 h-16 bg-white/20 rounded-xl flex items-center justify-center backdrop-blur-sm border border-white/30">
                   <img
-                    src="/imgs/react.svg"
+                    src={`${import.meta.env.BASE_URL}imgs/React.svg`}
                     alt="React"
                     className="w-10 h-10"
                   />
