@@ -40,7 +40,7 @@ export default function About() {
                 </div>
                 <div className="w-16 h-16 bg-white/20 rounded-xl flex items-center justify-center backdrop-blur-sm border border-white/30">
                   <img
-                    //src={`${import.meta.env.BASE_URL}imgs/Tailwind_CSS.png`}
+                    src={`${import.meta.env.BASE_URL}imgs/Tailwind_CSS.png`}
                     alt="Tailwind"
                     className="w-10 h-7"
                   />
@@ -48,7 +48,7 @@ export default function About() {
               </div>
               <div className="space-y-2">
                 <div className="px-4 py-2 bg-blue-500/20 rounded-full text-white text-sm border border-blue-400/30">
-                  React ⚛️ f
+                  React ⚛️ 
                 </div>
                 <div className="px-4 py-2 bg-yellow-500/20 rounded-full text-white text-sm border border-yellow-400/30">
                   Vite ⚡
