@@ -1,9 +1,14 @@
 import { motion, AnimatePresence } from "framer-motion";
 import { useEffect, useRef, useState } from "react";
 import { X, ChevronLeft, ChevronRight, ZoomIn, ZoomOut } from "lucide-react";
+import Pro2_1 from "../assets/imgs/Pro2-1.png";
+import Pro2_2 from "../assets/imgs/Pro2-2.png";
+import Pro2_3 from "../assets/imgs/Pro2-3.png";
+import Pro2_4 from "../assets/imgs/Pro2-4.png";
+import Pro2_5 from "../assets/imgs/Pro2-5.png";
 
 export interface Project {
-  img: string;
+  img: any;
   title: string;
   desc: string;
   detailDesc: string;
@@ -12,31 +17,31 @@ export interface Project {
 const projects : Project[]= [
  
   {
-    img: "/imgs/Pro2-1.png",
+    img: {Pro2_1},
     title: "Main Page",
     desc: "The home page shows the status of each tool and the sequence of tools.",
     detailDesc: "The top is for checking tools online. On the left side, it shows the Profile, tightening of tools, number of pieces and various manual menus. On the left side, it shows the tightening status of each tool."
   },
   {
-    img: "/imgs/Pro2-2.png",
+    img: {Pro2_2},
     title: "Product Log Page",
     desc: "Displaying the serial number of each piece of work",
     detailDesc: ""
   },
   {
-    img: "/imgs/Pro2-3.png",
+    img: {Pro2_3},
     title: "Tools Log Page",
     desc: "The menu shows the status of each tool.",
     detailDesc: ""
   },
   {
-    img: "/imgs/Pro2-4.png",
+    img: {Pro2_4},
     title: "Reason Log Page",
     desc: "The menu shows the reason for increment or decrement the manual sequence.",
     detailDesc: ""
   },
   {
-    img: "/imgs/Pro2-5.png",
+    img: {Pro2_5},
     title: "Approve by Admin",
     desc: "The setting menu can add, delete, and edit sequence tools.",
     detailDesc: ""
