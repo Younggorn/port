@@ -1,54 +1,14 @@
-import React, { useState } from 'react';
-import { Mail, ExternalLink, Github, Linkedin, Phone } from 'lucide-react';
+
+import { Mail,Github, Linkedin, Phone } from 'lucide-react';
 
 // Placeholder images - replace with your actual imports
-import Pic1 from "../assets/p1.png"
-import Pic2 from "../assets/p2.png"
-import Pic3 from "../assets/p3.png"
+
 import Me from "../assets/Me.png"
 
 const Home = () => {
-  const [email, setEmail] = useState('');
-  const [message, setMessage] = useState('');
-  const [isSubmitting, setIsSubmitting] = useState(false);
 
-  const projects = [
-    {
-      id: 1,
-      title: "SmartWork Dashboard",
-      description: "A comprehensive project management dashboard with real-time collaboration features",
-      image: Pic1,
-      tech: ["React", "Node.js", "MongoDB"]
-    },
-    {
-      id: 2,
-      title: "SmartWork Mobile",
-      description: "Mobile application for task management and team communication on the go",
-      image: Pic2,
-      tech: ["React Native", "Firebase", "Redux"]
-    },
-    {
-      id: 3,
-      title: "SmartWork Analytics",
-      description: "Advanced analytics platform for tracking productivity and project insights",
-      image: Pic3,
-      tech: ["Vue.js", "Python", "PostgreSQL"]
-    }
-  ];
 
-  const handleEmailSubmit = () => {
-    if (!email || !message) return;
-    
-    setIsSubmitting(true);
-    
-    // Simulate email sending
-    setTimeout(() => {
-      alert(`Thank you for your message! I'll get back to you at ${email}`);
-      setEmail('');
-      setMessage('');
-      setIsSubmitting(false);
-    }, 1000);
-  };
+
 
   return (
     <div>
