@@ -40,7 +40,7 @@ export default function About() {
                 </div>
                 <div className="w-16 h-16 bg-white/20 rounded-xl flex items-center justify-center backdrop-blur-sm border border-white/30">
                   <img
-                    src="/imgs/Tailwind_CSS.png"
+                    src={`${import.meta.env.BASE_URL}imgs/Tailwind_CSS.png`}
                     alt="Tailwind"
                     className="w-10 h-7"
                   />

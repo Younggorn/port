@@ -1,5 +1,5 @@
 // src/App.tsx
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Layout from "./layouts/Layout";
 import Home from "./views/Home";
 import About from "./views/About";
@@ -8,7 +8,7 @@ import Work from "./views/Work";
 
 function App() {
   return (
-    <BrowserRouter basename="/port">
+    
       <Routes>
         {/* Layout ครอบทุกหน้า */}
         <Route path="/" element={<Layout />}>
@@ -17,7 +17,7 @@ function App() {
           <Route path="work" element={<Work />} /> 
         </Route>
       </Routes>
-    </BrowserRouter>
+   
   );
 }
 
